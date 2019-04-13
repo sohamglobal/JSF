@@ -5,22 +5,10 @@
     xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_3.xsd"
     version="2.3">
 	<managed-bean>
-		<managed-bean-name>myName</managed-bean-name>
-		<managed-bean-class>mybeans.MyName</managed-bean-class>
-		<managed-bean-scope>request</managed-bean-scope>
-	</managed-bean>
-	<managed-bean>
 		<managed-bean-name>discountCalculator</managed-bean-name>
 		<managed-bean-class>mybeans.DiscountCalculator</managed-bean-class>
 		<managed-bean-scope>request</managed-bean-scope>
 	</managed-bean>
-	<navigation-rule>
-		<display-name>index.xhtml</display-name>
-		<from-view-id>/index.xhtml</from-view-id>
-		<navigation-case>
-			<to-view-id>/Welcome.xhtml</to-view-id>
-		</navigation-case>
-	</navigation-rule>
 	<navigation-rule>
 		<display-name>Customer.xhtml</display-name>
 		<from-view-id>/Customer.xhtml</from-view-id>
