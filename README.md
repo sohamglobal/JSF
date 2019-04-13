@@ -1,6 +1,6 @@
 # Sohams JSF Support
 
-Libraries and files required for JSF application development using - 
+Libraries and files required for JSF (Java Server Faces) application development using - 
 
 > Java 11
 
